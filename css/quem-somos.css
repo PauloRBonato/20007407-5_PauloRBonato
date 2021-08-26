@@ -1,0 +1,78 @@
+.quem-somos {
+  width: 70vw;
+  height: 100vh;
+  margin: 2vw auto;
+}
+
+.quem-somos h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.2vw;
+  display: flex;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+
+section .quem-somos_section {
+  margin: 0rem;
+  width: 100%;
+  height: 89%;
+  display: flex;
+  justify-content: center;
+}
+
+section .quem-somos_card {
+  margin: 0 2rem;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 39px 39px 78px #e3e3e3, -39px -39px 78px #ffffff;
+  width: 17vw;
+  height: 65vh;
+}
+
+.card_quem-somos .img_quem-somos {
+  margin-bottom: 4rem;
+}
+
+.img_card {
+  width: 14.64vw;
+  height: 14.64vw;
+  background-size: cover;
+  display: block;
+  border-radius: 7.32vw;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.card_quem-somos {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card_quem-somos .divider {
+  width: 80%;
+  border: 1px solid var(--texto-destaque);
+}
+
+.card_quem-somos .description_quem-somos h1 {
+  font-weight: 700;
+  padding: 1rem 0 0 0;
+  font-size: 1.5vw;
+}
+
+.card_quem-somos .description_quem-somos p {
+  font-weight: 300;
+  font-style: italic;
+  font-size: .95vw;
+}
+
+.card_quem-somos .divider,
+.img_card {
+  margin: 0 auto;
+}
+
+.card_quem-somos .description_quem-somos h1,
+p {
+  display: flex;
+  justify-content: center;
+}
